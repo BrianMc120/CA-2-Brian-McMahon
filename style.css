@@ -1,0 +1,58 @@
+/* background colour*/
+body {
+    background-color: rgb(218, 218, 221);
+}
+
+
+
+.flex-container img {
+    width: 100%;   
+    height: 300px;  
+}
+
+
+/* Navbar styling */
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(11, 46, 44, 0.644);
+    padding: 20px 50px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a:hover {
+    background-color: rgb(99, 99, 204);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Section spacing */
+section {
+    padding: 80px 20px;
+    border-bottom: 1px solid #000000;
+}
+
+/* Excel upload input spacing */
+#excelFile {
+    margin-bottom: 30px;
+}
+
